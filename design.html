@@ -11,7 +11,7 @@
     <link href="style.css" rel="stylesheet">
 
 </head>
-<body>
+<body style="background-color: rgba(211,211,211,0.31)">
 
 <div class="container" style="background: #f0f0f0">
 
@@ -30,16 +30,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#">SERVICES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" href="#">WORK</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link" href="#">BLOG</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        <a class="nav-link disabled" aria-disabled="true">CONTACT</a>
                     </li>
                 </ul>
             </div>
@@ -59,58 +59,69 @@
 </div>
 <br>
 <br>
-<div class="d-flex justify-content-around">
-    <div class="row col-6 col-md-12 d-flex justify-content-center justify-content-between">
+
+<!--Round Buttons-->
+<!--changing-->
+
+<div class="d-flex justify-content-center flex-wrap">
+    <div class="row col-sm-6 col-md-3 col-lg-3 col-xl-3 d-flex ">
         <div class="mb-5 circ" style="background-color: #e6563b;">DESIGN</div>
         <div class="mb-5 circ" style="background-color: #eb9d38;">DEVELOP</div>
         <div class="mb-5 circ" style="background-color: #7cb06c;">SUPPORT</div>
         <div class="mb-5 circ" style="background-color: #00aba9;">HOST</div>
     </div>
 </div>
-<br>
-<div style="text-align: center">SELECTED WORK</div>
-<br>
-<br>
+
+#e6563b
+#eb9d38
+#7cb06c
+#00aba9
+<!--divider-->
+
+<hr class="featurette-divider">
+
+<!--selected work and the last-->
+
+<div class="container">
+    <div class="row workSelected">
+        <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">SELECTED WORK</div>
+        <div class="col-xl-4 col-lg-4 d-none d-lg-block">THE LAST</div>
+    </div>
+</div>
 <!--*************************************************************************************************************-->
-<div>
-    <img src="img/apple-ipad.jpg" alt="ipad">
-    <div class="d-flex justify-content-between my-3">
-        <div style="display: inline-block;">FEATURED PROJECT</div>
-        <div>
-            <div class="lilCirc" style="background-color: #e6563b;"><strong>D</strong></div>
-            <div class="lilCirc" style="background-color: #eb9d38;"><strong>D</strong></div>
-            <div class="lilCirc" style="background-color: #7cb06c;"><strong>S</strong></div>
-            <div class="lilCirc" style="background-color: #00aba9;"><strong>H</strong></div>
-        </div>
-    </div>
-    <img src="img/macbook.jpg" alt="macbook">
-    <div class="d-flex justify-content-between my-3">
-        <div style="display: inline-block;">FEATURED PROJECT</div>
-        <div>
-            <div class="lilCirc" style="background-color: #e6563b;"><strong>D</strong></div>
-            <div class="lilCirc" style="background-color: #eb9d38;"><strong>D</strong></div>
-            <div class="lilCirc" style="background-color: #7cb06c;"><strong>S</strong></div>
-            <div class="lilCirc" style="background-color: #00aba9;"><strong>H</strong></div>
-        </div>
-    </div>
-    <img src="img/man.jpg" alt="man">
-    <div class="d-flex justify-content-between my-3">
-        <div style="display: inline-block;">FEATURED PROJECT</div>
-        <div>
-            <div class="lilCirc" style="background-color: #e6563b;"><strong>D</strong></div>
-            <div class="lilCirc" style="background-color: #eb9d38;"><strong>D</strong></div>
-            <div class="lilCirc" style="background-color: #7cb06c;"><strong>S</strong></div>
-            <div class="lilCirc" style="background-color: #00aba9;"><strong>H</strong></div>
-        </div>
-    </div>
-    <img src="img/security.jpg" alt="security">
-    <div class="d-flex justify-content-between my-3">
-        <div style="display: inline-block;">FEATURED PROJECT</div>
-        <div>
-            <div class="lilCirc" style="background-color: #e6563b;"><strong>D</strong></div>
-            <div class="lilCirc" style="background-color: #eb9d38;"><strong>D</strong></div>
-            <div class="lilCirc" style="background-color: #7cb06c;"><strong>S</strong></div>
-            <div class="lilCirc" style="background-color: #00aba9;"><strong>H</strong></div>
+<!--images-->
+
+<div class="row">
+    <div class="col-lg-8">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12" ><img src="img/apple-ipad.jpg" class="img-fluid">FEATURED PROJECT
+                    <div class="card-button" style="background-color: #e6563b;">D</div>
+                    <div class="card-button" style="background-color: #eb9d38;">D</div>
+                    <div class="card-button"style="background-color: #7cb06c;">S</div>
+                    <div class="card-button" style="background-color: #00aba9;">H</div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12"><img src="img/macbook.jpg" class="img-fluid">FEATURED PROJECT
+                    <div class="card-button" style="background-color: #e6563b;">D</div>
+                    <div class="card-button" style="background-color: #eb9d38;">D</div>
+                    <div class="card-button"style="background-color: #7cb06c;">S</div>
+                    <div class="card-button" style="background-color:#00aba9;">H</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12"><img src="img/man.jpg" class="img-fluid">FEATURED PROJECT
+                    <div class="card-button" style="background-color: #e6563b;">D</div>
+                    <div class="card-button" style="background-color: #eb9d38;">D</div>
+                    <div class="card-button"style="background-color: #7cb06c;">S</div>
+                    <div class="card-button" style="background-color: #00aba9;">H</div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12"><img src="img/security.jpg" class="img-fluid">FEATURED PROJECT
+                    <div class="card-button" style="background-color: #e6563b;">D</div>
+                    <div class="card-button" style="background-color: #eb9d38;">D</div>
+                    <div class="card-button"style="background-color: #7cb06c;">S</div>
+                    <div class="card-button" style="background-color: #00aba9;">H</div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
