@@ -12,7 +12,9 @@
     /*line-height: 90px;*/
     margin: 1vw;
 }
-
+h5{
+    font-weight: bold;
+}
 
 
 .card-button {
@@ -35,7 +37,10 @@ h1 {
     border: #E6E6E6 solid 5px;
     /*position: relative;*/
 }
-
-/*.dots{*/
-/*    position: absolute ;*/
-/*}*/
+.image-list{
+    height: 100px;
+    width: 150px;
+}
+.list-tweet{
+    margin: 0 0 50px 0;
+}
